@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.PhP_test">
+      <class name="tests.PHPCurrencyTest">
         <methods>
-          <include name="LogIn"/>
           <include name="afterEachTestComplete"/>
           <include name="beforeEachTestStart"/>
           <include name="afterAllTestsComplete"/>
+          <include name="loginTest" invocation-numbers="0"/>
           <include name="beforeAllTestStart"/>
         </methods>
-      </class> <!-- tests.PhP_test -->
+      </class> <!-- tests.PHPCurrencyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
